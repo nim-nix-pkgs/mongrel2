@@ -24,7 +24,7 @@
   inputs."zmq".owner = "nim-nix-pkgs";
   inputs."zmq".ref   = "master";
   inputs."zmq".repo  = "zmq";
-  inputs."zmq".dir   = "v1_3_0";
+  inputs."zmq".dir   = "v1_3_1";
   inputs."zmq".type  = "github";
   inputs."zmq".inputs.nixpkgs.follows = "nixpkgs";
   inputs."zmq".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
