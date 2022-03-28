@@ -11,7 +11,6 @@
   inputs.src-mongrel2-master.ref   = "refs/heads/master";
   inputs.src-mongrel2-master.owner = "mahlonsmith";
   inputs.src-mongrel2-master.repo  = "nim-mongrel2";
-  inputs.src-mongrel2-master.dir   = "";
   inputs.src-mongrel2-master.type  = "github";
   
   inputs."tnetstring".owner = "nim-nix-pkgs";
