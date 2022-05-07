@@ -21,6 +21,35 @@
         "type": "github"
       }
     },
+    "mongrel2-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-mongrel2-master": "src-mongrel2-master",
+        "tnetstring": "tnetstring",
+        "zmq": "zmq"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651589743,
+        "narHash": "sha256-pfDteliTN6btGwbvKywwUxdHvlYalk2g0XRF8zdd9Sk=",
+        "owner": "nim-nix-pkgs",
+        "repo": "mongrel2",
+        "rev": "543c62a63772e1139732031c0ef9c135dc179533",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "mongrel2",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-7sWpWRO0IsBP5jm9qCrpuzDkWC7UAghiCmZZ+1uqHKo=",
@@ -35,10 +64,8 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "src-mongrel2-master": "src-mongrel2-master",
-        "tnetstring": "tnetstring",
-        "zmq": "zmq"
+        "mongrel2-master": "mongrel2-master",
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-mongrel2-master": {
@@ -95,20 +122,22 @@
     "tnetstring": {
       "inputs": {
         "flakeNimbleLib": [
+          "mongrel2-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "mongrel2-master",
           "nixpkgs"
         ],
         "src-tnetstring-master": "src-tnetstring-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918527,
-        "narHash": "sha256-i9UCo6yoqxxMySDF5BtQgTLbbh37yBCNlo/RyUcFjw4=",
+        "lastModified": 1651556162,
+        "narHash": "sha256-ZcQ/H5pq0/I4s6tFwoxvtvHe0tHpkDWjvZghdwVMV8Q=",
         "owner": "nim-nix-pkgs",
         "repo": "tnetstring",
-        "rev": "bdc0345010319e582a3970b136c76fa883107e6d",
+        "rev": "0093b7dfdf799014103043ed87b84f5eb55d6cc9",
         "type": "github"
       },
       "original": {
@@ -122,20 +151,22 @@
     "zmq": {
       "inputs": {
         "flakeNimbleLib": [
+          "mongrel2-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "mongrel2-master",
           "nixpkgs"
         ],
         "src-zmq-v1_3_1": "src-zmq-v1_3_1"
       },
       "locked": {
         "dir": "v1_3_1",
-        "lastModified": 1651918631,
-        "narHash": "sha256-K/wG95jcU9OYwsuvPIl/RPa/WAo4U6Jox4E4gNBLARw=",
+        "lastModified": 1651556293,
+        "narHash": "sha256-mQIOSY7hE1RbM1n7AdFECsCzoViK/uZu/fTJbpQxxe8=",
         "owner": "nim-nix-pkgs",
         "repo": "zmq",
-        "rev": "63047e32613daa801b2720cc9d6608f7a0153304",
+        "rev": "b999a2ac279786dedc4bd1a98221a0b82552b672",
         "type": "github"
       },
       "original": {
